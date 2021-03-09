@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pricingOptions {
+  /* width: 1402px; */
+  /* height: 900px; */
+  padding-top: 102px;
+  background-color: #f5f5f5;
+}
+
+.pricingWrapper {
+  margin-bottom: 81px;
+}
+
+.pricingTitle {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.pricingLine {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  padding: 0;
+  background-color: #ff8b38;
+}
+
+p {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.pricingText {
+  color: #86878b;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  width: 343px;
+  margin-bottom: 111px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.blockCenter {
+  margin: 0 40px;
+}
+
+.blockHeader {
+  background-color: #333333;
+}
+
+.packageName {
+  height: 59px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.price {
+  height: 100px;
+  border-top: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;
+  font-weight: bold;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.payment {
+  height: 50px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.relevance {
+  height: 5px;
+  background-color: #ff8b38;
+}
+
+.relevanceCenter {
+  height: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.option {
+  height: 40px;
+  border-bottom: 1px solid #f5f5f5;
+  background-color: #ffffff;
+  font-weight: normal;
+  font-size: 14px;
+  color: #86878b;
+}
+
+.optionTop {
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.architecture {
+  width: 100%;
+  height: 297px;
+  background-image: url(images/architecture.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.shadow {
+  width: 100%;
+  height: 297px;
+  padding-top: 54px;
+  background-color: rgba(51, 51, 51, 0.58);
+}
+
+.architectureTitle {
+  font-weight: normal;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.architectureLine {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.architectureText {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 38px;
+  color: #ffffff;
+}
+
+.download {
+  width: 134px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 54px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  border-radius: 4%;
+  transition-duration: 0.5s;
+}
+
+.download:hover {
+  background-color: rgba(51, 51, 51, 0.95);
+}
